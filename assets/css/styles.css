@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --main-color: #22333B;
+  --secondary-color: #0A0908;
+  --font-color: #F2F4F3;
+}
+
+p {
+  color: var(--font-color);
+}
+
+nav {
+  width: 2rem;
+}
+
+header {
+  height: calc(100vh - 2rem);
+  background-color: var(--secondary-color);
+}
+
+h2 {
+  font-size: 1rem;
+}
